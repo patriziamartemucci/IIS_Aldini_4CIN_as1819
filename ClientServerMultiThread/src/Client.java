@@ -44,6 +44,7 @@ public static void main(String argv[])
 		}while(!messaggio.toLowerCase().equals("stop"));
 		out.close();
 		in.close();
+		socket.close();
 	}
 		catch(Exception e) { System.out.println(e.getMessage());}
 	}
